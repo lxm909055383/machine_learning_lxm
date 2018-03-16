@@ -79,6 +79,6 @@ def testingNB():
     print(testEntry,'classified as: ',classifyNB(thisDoc,p0V,p1V,pAb))
 
 if __name__ == '__main__':
-    testingNB()    #便利函数，封装了所有的内容
+    testingNB()   #便利函数，封装了所有的内容
 
 
