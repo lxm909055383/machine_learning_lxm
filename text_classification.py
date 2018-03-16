@@ -1,30 +1,3 @@
-# # coding:utf-8
-# from sklearn.feature_extraction.text import CountVectorizer
-# from sklearn.feature_extraction.text import TfidfTransformer
-#
-# '''利用CountVectorizer类将词语转换为词频矩阵'''
-# # 词库
-# corpus = [
-#     'This is the first document.',
-#     'This is the second second document.',
-#     'And the third one.',
-#     'Is this the first document?',
-# ]
-# # 将文本中的词语转换为词频矩阵
-# vectorizer = CountVectorizer()  #类调用
-# # 计算每个词语出现的次数
-# X = vectorizer.fit_transform(corpus)
-# # 获取词袋中所有文本关键词
-# word = vectorizer.get_feature_names()
-# print(word)
-# # 查看词频结果
-# print(X.toarray())
-#
-# transformer = TfidfTransformer()  # 类调用
-# # 将词频矩阵X统计成TF-IDF值
-# tfidf = transformer.fit_transform(X)
-# # 查看数据结构 tfidf[i][j]表示i类文本中的tf-idf权重
-# print(tfidf.toarray())
 
 # coding:utf-8
 import jieba

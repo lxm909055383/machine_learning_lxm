@@ -1,0 +1,3 @@
+﻿
+bayes.py是斑点狗社区评论分类案例
+mail_classification.py是垃圾邮件分类案例
