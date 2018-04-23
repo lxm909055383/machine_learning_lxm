@@ -1,7 +1,9 @@
+#!/usr/bin/python
+#coding:utf-8
 
 import random
 from numpy import *
-from bayes import loadDataSet, createVocabList, bagOfWords2VecMN, trainNB0, classifyNB
+from naive_bayes.bayes import *
 
 #将字符串文本转化为字符串列表
 def textParse(bigString):
@@ -25,7 +27,7 @@ def spamTest():
         fullText.extend(wordList)
         classList.append(0)
     vocabList = createVocabList(docList)  # 创建特征词向量
-    trainingSet = range(50)
+    trainingSet = list(range(50))
     testSet = []  #随机选择10个作为测试集
     for i in range(10):
         randIndex = int(random.uniform(0, len(trainingSet)))

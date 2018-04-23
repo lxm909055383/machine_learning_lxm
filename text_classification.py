@@ -1,5 +1,6 @@
+#!/usr/bin/python
+#coding:utf-8
 
-# coding:utf-8
 import jieba
 from sklearn.feature_extraction.text import CountVectorizer    #将词语转换为词频矩阵
 from sklearn.feature_extraction.text import TfidfTransformer   #统计词语的tf-idf

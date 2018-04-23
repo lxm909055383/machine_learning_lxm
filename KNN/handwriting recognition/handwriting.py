@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#coding:utf-8
+
 from numpy import *
 import operator
 from os import listdir    #列出给定目录的文件名

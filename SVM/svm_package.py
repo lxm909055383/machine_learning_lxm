@@ -1,3 +1,5 @@
+#!/usr/bin/python
+#coding:utf-8
 
 """识别手写体数字图片"""
 
